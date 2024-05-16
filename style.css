@@ -76,10 +76,8 @@ button:hover {
     text-align: center;
 }
 
-.body {
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* padding: 2% 10%; */
+body {
+    margin: 0;
 }
 .info {
     padding: 2% 15%;
