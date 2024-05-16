@@ -24,7 +24,7 @@ html {
     display: flex;
     color: white;
     justify-content: space-between;
-    padding: 5% 10%;
+    padding: 6% 10%;
 }
 .hero-info {
     display: flex;
@@ -56,7 +56,7 @@ html {
 
 button {
     background-color:#3882F6;
-    padding: 5px 10px;
+    padding: 7px 10px;
     border:none;
     border-radius: 12px;
     width: 120px;
@@ -79,28 +79,33 @@ button:hover {
 .body {
     /* display: flex; */
     /* flex-direction: column; */
-    padding: 2% 10%;
+    /* padding: 2% 10%; */
+}
+.info {
+    padding: 2% 15%;
 }
 .body-info-container {
     display: flex;
-    gap: 20px;
+    gap: 28px;
+    justify-content:center;
 }
 .info-img {
     display: flex;
     border-color: #3882F6;
     border-radius: 12px;
     border-style: solid;
-    height: 150px;
-    width: 130px;
-    flex: 1 0 auto;
+    min-height: 150px;
+    min-width: 130px;
+    /* flex: 1; */
 }
 .body-info-box {
     display:flex;
     flex-direction: column;
     margin-top: 5px;
     margin-bottom: 10px;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
+    width: 160px;
 }
 
 .body-info-box p {
@@ -111,8 +116,68 @@ button:hover {
     /* color:#E5E7EB; */
 }
 
+/* QUOTE SECTION */
+.quote {
+    background-color: #E5E7EB;
+    padding: 5% 15%;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    margin: 0;
+    text-align: center;
+}
+.quote-source {
+    font-size: 22px;
+    font-weight: bold;
+    color: #1f2937;
+    margin: 0;
+    text-align: right;
+}
+/* Call to action  */
+.call-to-action{
+    padding: 5% 10%;
+}
+.call-container {
+    background-color: #3882F6;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    padding: 4% 10%;
+    border-radius: 12px;
+}
+
+.call-text {
+    color: #F9FAF8;
+    flex: 1.5;
+}
+
+.call-text h1 {
+    font-size: 22px;
+    margin:0;
+}
+.call-text p {
+    /* font-size: 22px; */
+    margin:0;
+}
+
+.call-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call-to-action button {
+    border: solid #F9FAF8 2px;
+}
+
+/* Footer and misc below */
 .footer {
     color: #F9FAF8;
+    text-align: center;
+    padding: 20px;
 }
 
 .hero, .footer {
